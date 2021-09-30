@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		 .box{
+			 height:140px ;
+			 width: 140px;
+			 background: url(./img/run.png) left no-repeat;
+			 animation:run 1s steps(12)/* 图片数量 */ infinite ;
+		 }
+		 @keyframes run{
+		 	from{
+				background-position: 0 0;
+			}
+		 	to{background-position: -1680px/* 图片宽度 */ 0;}
+		 }
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+	</body>
+</html>
